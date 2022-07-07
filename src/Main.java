@@ -21,7 +21,7 @@ class Main {
 
         } catch (SQLException e) {
             System.err.println(e.getMessage());
-            System.err.println("impossible de se connecter");
+            System.err.println("impossible de se connecter veuillez recommencer !!");
         }
 
     }
